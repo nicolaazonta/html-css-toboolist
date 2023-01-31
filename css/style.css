@@ -1,0 +1,95 @@
+
+
+/* commons ---------------------------- */
+
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0px;
+}
+
+body{
+    background-color: #f6f8f9;
+}
+
+
+
+
+/* utilities ---------------------------- */
+
+.mt-2{
+    margin-top: 2px;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+.pl-50{
+    padding-left: 50px;
+}
+
+
+
+/* header ---------------------------- */
+
+header{
+    background-color: white;
+    height: 80px;
+}
+
+.logo-text{
+    color: #041830;
+    font-size: 50px;
+    vertical-align: middle;
+}
+
+.logo{
+    height: 55px ;
+    padding-left: 20px;
+    padding-top: 6px;
+    vertical-align: middle;
+
+}
+
+/* main ---------------------------- */
+
+.buttons{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.task-title{
+    font-weight: 600;
+    color: #565962;
+}
+
+.task-text{
+    color: #767a80;
+}
+
+.down-arrow{
+    font-size: 10px;
+}
+
+.circle-check{
+    color: green;
+    border: 1px solid green;
+    border-radius: 1px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+div{
+    background-color: aquamarine ;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* footer ---------------------------- */
+
+footer{
+    background-color: aquamarine;
+}
