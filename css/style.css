@@ -12,6 +12,14 @@ body{
 }
 
 
+div{
+    background-color: white ;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+
+}
 
 
 /* utilities ---------------------------- */
@@ -61,9 +69,25 @@ header{
 }
 
 /* main ---------------------------- */
+.notp-button{
+    background-color: white ;
+    color: lightgray;
+    border: 1px solid lightgray;
+    font-size: 13px;
+    border-radius: 4px;
+    padding: 7px 10px; 
+}
+.p-button{
+    background-color: #45acf1 ;
+    color: white;
+    font-size: 13px;
+    border-radius: 4px;
+    padding: 7px 10px; 
+    line-height: 60px;   
+}
 
 .buttons{
-    border-radius: 10px 10px 0px 0px;
+    height: 60px;
 }
 
 .task-title{
@@ -73,7 +97,8 @@ header{
 
 .task-text{
     color: #767a80;
-    padding: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 
 }
 
@@ -84,7 +109,17 @@ header{
 .circle-check{
     color: green;
     border: 1px solid green;
-    border-radius: 1px;
+    border-radius: 14px;
+    padding: 1px 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.circle-cross{
+    color: red;
+    border: 1px solid red;
+    border-radius: 14px;
+    padding: 1px 5px;
     text-align: center;
     vertical-align: middle;
 }
@@ -125,18 +160,24 @@ header{
     padding: 3px;
 }
 
+.lime-ball{
+    background-color: #b0c926 ;
+    color: white;
+    font-size: 10px;
+    line-height: 16px;
+    border-radius: 10px;
+    padding: 3px;
+}
 
-div{
-    background-color: aquamarine ;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
+.light-violet-ball{
+    background-color: #d863a1 ;
+    color: white;
+    font-size: 10px;
+    line-height: 16px;
+    border-radius: 10px;
+    padding: 3px;
 }
 
 
 
-/* footer ---------------------------- */
 
-footer{
-    background-color: aquamarine;
-}
