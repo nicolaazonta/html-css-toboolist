@@ -28,6 +28,14 @@ body{
     padding-left: 50px;
 }
 
+.pt-20{
+    padding-top: 20px;
+}
+
+.p-5{
+    padding: 5px;
+}
+
 
 
 /* header ---------------------------- */
@@ -41,6 +49,7 @@ header{
     color: #041830;
     font-size: 50px;
     vertical-align: middle;
+    font-weight: 800;
 }
 
 .logo{
@@ -64,6 +73,8 @@ header{
 
 .task-text{
     color: #767a80;
+    padding: 5px;
+
 }
 
 .down-arrow{
@@ -76,6 +87,42 @@ header{
     border-radius: 1px;
     text-align: center;
     vertical-align: middle;
+}
+
+.blue-ball{
+    background-color: #45acf1 ;
+    color: white;
+    font-size: 10px;
+    line-height: 16px;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.violet-ball{
+    background-color: #9c72e4 ;
+    color: white;
+    font-size: 10px;
+    line-height: 16px;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.green-ball{
+    background-color: #64c0a9 ;
+    color: white;
+    font-size: 10px;
+    line-height: 16px;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.orange-ball{
+    background-color: #f29e33 ;
+    color: white;
+    font-size: 10px;
+    line-height: 16px;
+    border-radius: 10px;
+    padding: 3px;
 }
 
 
